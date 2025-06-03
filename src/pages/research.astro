@@ -6,12 +6,13 @@ import TimeLineElement_talks from "../components/cv/TimeLine_talks.astro";
 
 <BaseLayout title = "Research" sideBarActiveItemID="research">
   <div>
-    <div><h1 class="text-3xl w-full font-bold mb-5 text-primary">RESEARCH</h1></div>
+    <div><h1 class="text-4xl w-full font-bold mb-5 text-primary">RESEARCH</h1></div>
+
   </div>
 
 
   <div class="mb-5">
-    <div><h1 class="text-2xl w-full font-bold">Publications and preprints</h1></div>
+    <div><h1 class="text-3xl w-full font-bold">Publications and preprints</h1></div>
   </div> 
   <div class="time-line-container mb-10">
     <TimeLineElement
@@ -43,7 +44,36 @@ import TimeLineElement_talks from "../components/cv/TimeLine_talks.astro";
 
 
   <div class="mb-5">
-    <div><h1 class="text-2xl w-full font-bold">Talks and posters</h1></div>
+    <div><h1 class="text-3xl w-full font-bold">Talks and posters</h1></div>
+
+  </div>
+
+    <div class="mb-5">
+
+    <div><h1 class="text-xl w-full font-bold">Upcoming events</h1></div>
+    </div>
+      <div class="time-line-container mb-10">
+          <TimeLineElement_talks
+    title="Meeting on "
+    conflink="https://www.techfak.uni-bielefeld.de/ags/bm/events/2025-09_Wien.htm"
+    confname="Ancestral lines in population models with interaction"
+    dateloc= "- BOKU University, Vienna, Austria, September 24th - 26th 2025"
+>
+  </TimeLineElement_talks> 
+
+  <TimeLineElement_talks
+    title="44th Conference on "
+    
+    conflink="https://spa2025.syskonf.pl/"
+    confname="Stochastic Processes and their Applications"
+    dateloc= "- Wrocław, Poland, July 14th - 18th 2025"
+>
+  </TimeLineElement_talks> 
+      </div>
+          <div class="mb-5">
+          
+    <div><h1 class="text-xl w-full font-bold">Past events</h1></div>
+
 
   </div>
 
@@ -138,7 +168,7 @@ import TimeLineElement_talks from "../components/cv/TimeLine_talks.astro";
   </div>
 
    <div class="mb-5">
-    <div><h1 class="text-2xl w-full font-bold">Other activities</h1></div>
+    <div><h1 class="text-3xl w-full font-bold">Other activities</h1></div>
 
   </div>
   <div class="time-line-container mb-10">
@@ -153,7 +183,7 @@ import TimeLineElement_talks from "../components/cv/TimeLine_talks.astro";
 
 
   <text class="text-base">
-    <h1 class="text-2xl w-full font-bold">Collaborators' webpages:</h1> <a class="link-secondary" href="https://homepage.univie.ac.at/emmanuel.schertzer/" target="_blank">Emmanuel Schertzer</a> -
+    <h1 class="text-xl w-full font-bold">Collaborators' webpages:</h1> <a class="link-secondary" href="https://homepage.univie.ac.at/emmanuel.schertzer/" target="_blank">Emmanuel Schertzer</a> -
     <a class="link-secondary" href="https://www.normalesup.org/~foutelrodier/" target="_blank">Félix Foutel-Rodier</a>
    - <a class="link-secondary" href="https://duchamps.perso.math.cnrs.fr/" target="_blank">Jean-Jil Duchamps</a>
   </text>
